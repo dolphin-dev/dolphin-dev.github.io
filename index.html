@@ -5,10 +5,6 @@
         <title>OpenDolphin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:url"           content="http://dolphin-dev.github.io/index.html" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="OpenDolphin" />
-    <meta property="og:description"   content="Your description" />
-    <meta property="og:image"         content="http://dolphin-dev.github.io/object-model/karte-hi.png"/>
         <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
@@ -16,22 +12,22 @@
     </head>
     <body>
       <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '605307469611469',
-      xfbml      : true,
-      version    : 'v2.4'
-    });
-  };
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '605307469611469',
+          xfbml      : true,
+          version    : 'v2.4'
+        });
+      };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
         <section class="page-header">
             <h2 class="project-name">オープン ドルフィン</h2>
             <h3 class="project-tagline">医療・クラウド・オープンソース</h3>
@@ -39,14 +35,14 @@
             <a href="https://github.com/dolphin-dev/docker-images" class="btn">インストール</a>
             <a href="https://gist.github.com/dolphin-dev/3cc1d4579ce268809573" class="btn">設　計</a>
         </section>
-        <div
-          class="fb-like"
-          data-share="true"
-          data-width="450"
-          data-show-faces="true">
-        </div>
-        <section class="main-content">
 
+        <section class="main-content">
+          <div
+            class="fb-like"
+            data-share="true"
+            data-width="450"
+            data-show-faces="true">
+          </div>
             <p>OpenDolphinはオープンソースの電子カルテです。Windows、Mac、Linux で動き、日医標準レセプトORCAと連携します。またiPhone/iPad アプリもあります。</p>
 
             <h3>Gist</h3>
