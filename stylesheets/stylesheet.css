@@ -166,7 +166,7 @@ a:hover {
   color: #159957;
 }
 .main-content p {
-  margin-bottom: 0.0em;   /* 1em */
+  margin-bottom: 1.0em;   /* 1em */
 }
 .main-content code {
   padding: 2px 4px;
