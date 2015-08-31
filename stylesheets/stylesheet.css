@@ -153,6 +153,7 @@ a:hover {
 .main-content :first-child {
   margin-top: 0;
 }
+
 .main-content img {
   /* max-width: 100%; */
   display: block;
